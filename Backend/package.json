@@ -1,0 +1,30 @@
+{
+  "name": "booksore",
+  "version": "1.0.0",
+  "description": "book store project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohitkumawattt/BookStoreApp.git"
+  },
+  "author": "Rohit Kumawat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohitkumawattt/BookStoreApp/issues"
+  },
+  "homepage": "https://github.com/rohitkumawattt/BookStoreApp#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cores": "^0.8.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2",
+    "nodemon": "^3.1.9"
+  }
+}
